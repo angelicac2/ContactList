@@ -1,6 +1,6 @@
 public class Coach extends Person{
     private String sport;
-    public Coach(String firstName, String lastName, String phoneNumber, String coach) {
+    public Coach(String firstName, String lastName, String phoneNumber, String sport) {
         super(firstName, lastName, phoneNumber);
         this.sport = sport;
     }
